@@ -12,5 +12,13 @@
     <properties>
         <swagger.version>2.6.0</swagger.version>
     </properties>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.6.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>

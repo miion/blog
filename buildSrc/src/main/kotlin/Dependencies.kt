@@ -16,7 +16,8 @@ object Libs {
 
     object Bom {
         val definitions = listOf(
-            "org.springframework.boot:spring-boot-dependencies:${Versions.Bom.springBoot}"
+            "org.springframework.boot:spring-boot-dependencies:${Versions.Bom.springBoot}",
+            "org.mion.customized:customized-bom:${Versions.Bom.base}"
         )
     }
 }
