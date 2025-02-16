@@ -1,5 +1,9 @@
 dependencies {
     implementation(project(":app"))
+    implementation(project(":chat"))
+
+    implementation(project(":base:base-starter-metrics"))
+    implementation(project(":base:base-starter-web"))
 
     implementation(Libs.springBootWeb)
 }

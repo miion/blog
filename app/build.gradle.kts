@@ -1,5 +1,6 @@
 dependencies {
-    implementation(project(":utils"))
+
+    implementation(project(":base:base-starter"))
 
     implementation(Libs.springBootWeb)
 

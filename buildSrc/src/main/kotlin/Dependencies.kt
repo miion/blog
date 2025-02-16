@@ -13,6 +13,10 @@ object Libs {
     const val springBoot = "org.springframework.boot:spring-boot"
     const val springBootWeb = "org.springframework.boot:spring-boot-starter-web"
     const val springBootValidation = "org.springframework.boot:spring-boot-starter-validation"
+    const val springBootWebSocket = "org.springframework.boot:spring-boot-starter-websocket"
+
+    const val micrometerPrometheus = "io.micrometer:micrometer-registry-prometheus"
+    const val micrometerCore = "io.micrometer:micrometer-core"
 
     object Bom {
         val definitions = listOf(

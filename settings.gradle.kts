@@ -19,10 +19,28 @@ plugins {
 // Include the `app` and `utils` subprojects in the build.
 // If there are changes in only one of the projects, Gradle will rebuild only the one that has changed.
 // Learn more about structuring projects with Gradle - https://docs.gradle.org/8.7/userguide/multi_project_builds.html
-include(":app")
-include(":utils")
 
 rootProject.name = "blog"
-include("docker")
+apply(from = "base/settings.gradle.kts")
+apply(from = "common/settings.gradle.kts")
+//include("docker")
 include("docker:blog-api")
-findProject(":docker:blog-api")?.name = "blog-api"
+//findProject(":docker:blog-api")?.name = "blog-api"
+//include("base")
+//include("common")
+//include("base:base-starter-metrics")
+//findProject(":base:base-starter-metrics")?.name = "base-starter-metrics"
+//include("common")
+//include("common:common-utils")
+//findProject(":common:common-utils")?.name = "common-utils"
+//include("base")
+//include("base:base-starter-metrics")
+//findProject(":base:base-starter-metrics")?.name = "base-starter-metrics"
+//include("common:common-metrics")
+//findProject(":common:common-metrics")?.name = "common-metrics"
+//include("base:base-starter-web")
+//findProject(":base:base-starter-web")?.name = "base-starter-web"
+//include("base:base-starter")
+//findProject(":base:base-starter")?.name = "base-starter"
+include(":app")
+include(":chat")
