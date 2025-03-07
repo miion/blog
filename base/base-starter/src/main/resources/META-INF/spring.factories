@@ -1,0 +1,2 @@
+org.springframework.boot.env.EnvironmentPostProcessor=\
+    org.mion.blog.starter.base.configuration.AppEnvironmentPostProcessor

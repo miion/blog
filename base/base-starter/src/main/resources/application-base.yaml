@@ -1,0 +1,8 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+
+logging:
+  pattern:
+    console: "%clr(%-5level) %clr(%d{yyyy-MM-dd HH:mm:ss}){faint} %clr(%logger{36}){cyan} - %msg%n"

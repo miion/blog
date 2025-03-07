@@ -15,23 +15,30 @@
             </builds>
           </compositeBuild>
         </compositeConfiguration>
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/app-article" />
+            <option value="$PROJECT_DIR$/app/app-chat" />
+            <option value="$PROJECT_DIR$/app/app-notification" />
             <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/base/base-starter" />
             <option value="$PROJECT_DIR$/base/base-starter-metrics" />
+            <option value="$PROJECT_DIR$/base/base-starter-mongodb" />
+            <option value="$PROJECT_DIR$/base/base-starter-sse" />
             <option value="$PROJECT_DIR$/base/base-starter-web" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/chat" />
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/common/common-metrics" />
             <option value="$PROJECT_DIR$/common/common-utils" />
             <option value="$PROJECT_DIR$/docker" />
             <option value="$PROJECT_DIR$/docker/blog-api" />
+            <option value="$PROJECT_DIR$/domain" />
+            <option value="$PROJECT_DIR$/domain/domain-article" />
+            <option value="$PROJECT_DIR$/domain/domain-notification" />
           </set>
         </option>
       </GradleProjectSettings>

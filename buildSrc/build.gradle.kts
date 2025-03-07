@@ -8,7 +8,7 @@ kotlin {
 
 
 val springVersion: String by project
-val springDeps: String by project
+val springDependency: String by project
 
 dependencies {
 //    implementation(libs.kotlinGradlePlugin)
@@ -19,5 +19,5 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-noarg:2.0.21")
 
     implementation("org.springframework.boot:spring-boot-gradle-plugin:${springVersion}")
-    implementation("io.spring.gradle:dependency-management-plugin:${springDeps}")
+    implementation("io.spring.gradle:dependency-management-plugin:${springDependency}")
 }

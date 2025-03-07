@@ -15,8 +15,6 @@ kotlin {
 }
 
 tasks.withType<Test>().configureEach {
-    // Configure all test Gradle tasks to use JUnitPlatform.
-    useJUnitPlatform()
 
     // Log information about all test results, not only the failed ones.
     testLogging {
