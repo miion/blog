@@ -39,6 +39,8 @@
             <option value="$PROJECT_DIR$/domain" />
             <option value="$PROJECT_DIR$/domain/domain-article" />
             <option value="$PROJECT_DIR$/domain/domain-notification" />
+            <option value="$PROJECT_DIR$/external" />
+            <option value="$PROJECT_DIR$/external/external-kma-api" />
           </set>
         </option>
       </GradleProjectSettings>

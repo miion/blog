@@ -14,5 +14,8 @@ apply(from = "base/settings.gradle.kts")
 apply(from = "common/settings.gradle.kts")
 apply(from = "domain/settings.gradle.kts")
 apply(from = "app/settings.gradle.kts")
+apply(from = "external/settings.gradle.kts")
 
 include("docker:blog-api")
+include("external:external-kma-api")
+findProject(":external:external-kma-api")?.name = "external-kma-api"

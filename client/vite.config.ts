@@ -23,11 +23,11 @@ export default defineConfig({
     port: 4001,
     proxy: {
       "/api": {
-        target: "http://localhost:8080",
+        target: "http://localhost:10001",
         changeOrigin: true,
       },
       "/ws-stomp": {
-        target: "http://localhost:8080",
+        target: "http://localhost:10001",
         ws: true,
         rewriteWsOrigin: true,
       },

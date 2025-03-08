@@ -18,6 +18,10 @@ const menuNames: Record<string, MessageDescriptor> = defineMessages({
     description: "abc",
     defaultMessage: "B",
   },
+  [PERMISSION.NOTIFICATION]: {
+    description: "notification",
+    defaultMessage: "Notification",
+  },
 })
 
 export default menuNames

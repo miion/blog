@@ -1,6 +1,7 @@
 dependencies {
     implementation(project(":app:app-article"))
     implementation(project(":app:app-chat"))
+    implementation(project(":app:app-notification"))
 
     implementation(project(":base:base-starter-metrics"))
     implementation(project(":base:base-starter-web"))

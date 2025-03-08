@@ -8,11 +8,15 @@ import java.util.concurrent.ConcurrentHashMap
 @Component
 class EmitterRepositoryImpl : EmitterRepository {
 
-    private val emitters: Map<String, SseEmitter> = ConcurrentHashMap()
+    private val emitters = ConcurrentHashMap<String, SseEmitter>()
 
     override fun save(key: String, sseEmitter: SseEmitter): SseEmitter {
-        emitters.plus(key to sseEmitter)
+        emitters[key] = sseEmitter
         return sseEmitter
+    }
+
+    override fun findAll(): Map<String, SseEmitter> {
+        return emitters
     }
 
     override fun findAllEmitterStartWithByUserId(userId: String): Map<String, SseEmitter> {
@@ -22,7 +26,7 @@ class EmitterRepositoryImpl : EmitterRepository {
     }
 
     override fun deleteById(key: String) {
-        emitters.minus(key)
+        emitters.remove(key)
     }
 
 }

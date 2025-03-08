@@ -3,6 +3,7 @@ object Versions {
     object Bom {
         const val base = "1.0.0"
         const val springBoot = "3.4.2"
+        const val springCloud = "2024.0.0"
     }
 }
 
@@ -20,6 +21,8 @@ object Libs {
     const val micrometerPrometheus = "io.micrometer:micrometer-registry-prometheus"
     const val micrometerCore = "io.micrometer:micrometer-core"
 
+    const val springCloudOpenFeign = "org.springframework.cloud:spring-cloud-starter-openfeign"
+
     const val slf4j = "org.slf4j:slf4j-api"
     const val kotlinJackson = "com.fasterxml.jackson.module:jackson-module-kotlin"
     const val kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect"
@@ -33,7 +36,8 @@ object Libs {
     object Bom {
         val definitions = listOf(
             "org.springframework.boot:spring-boot-dependencies:${Versions.Bom.springBoot}",
-            "org.mion.customized:customized-bom:${Versions.Bom.base}"
+            "org.springframework.cloud:spring-cloud-dependencies:${Versions.Bom.springCloud}",
+            "org.mion.customized:customized-bom:${Versions.Bom.base}",
         )
     }
 }

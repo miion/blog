@@ -47,7 +47,7 @@ const requestWith = <T>(parameters: RequestSpecification): Promise<AxiosResponse
   const { url, method = RequestMethod.GET, query = {}, data, headers: customHeaders } = parameters
 
   const spec: AxiosRequestConfig = {
-    url: testUrl`/data${url}`,
+    url: testUrl`/api${url}`,
     params: query,
     data,
     method,
