@@ -18,5 +18,10 @@ class KmaApiTest(
         println(actual)
     }
 
+    "kma api test2" {
+        val actual = kmaApi.findWeatherForecast2()
+        println(actual)
+    }
+
 
 })

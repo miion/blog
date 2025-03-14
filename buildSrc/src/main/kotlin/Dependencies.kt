@@ -54,6 +54,7 @@ object Projects {
         const val mongodb = ":base:base-starter-mongodb"
         const val sse = ":base:base-starter-sse"
         const val web = ":base:base-starter-web"
+        const val http = ":base:base-starter-http"
     }
 
     object Common {
