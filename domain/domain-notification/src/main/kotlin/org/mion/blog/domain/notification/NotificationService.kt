@@ -1,4 +1,4 @@
-package org.mion.blog.domain.notification.service
+package org.mion.blog.domain.notification
 
 import org.mion.blog.common.utils.log
 import org.mion.blog.domain.notification.constants.SseEventName

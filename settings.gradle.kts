@@ -19,3 +19,5 @@ apply(from = "external/settings.gradle.kts")
 include("docker:blog-api")
 include("external:external-kma-api")
 findProject(":external:external-kma-api")?.name = "external-kma-api"
+include("base:base-starter-http")
+findProject(":base:base-starter-http")?.name = "base-starter-http"

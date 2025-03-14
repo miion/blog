@@ -24,12 +24,14 @@ object Libs {
     const val springCloudOpenFeign = "org.springframework.cloud:spring-cloud-starter-openfeign"
 
     const val slf4j = "org.slf4j:slf4j-api"
+    const val gson = "com.google.code.gson:gson"
     const val kotlinJackson = "com.fasterxml.jackson.module:jackson-module-kotlin"
     const val kotlinReflect = "org.jetbrains.kotlin:kotlin-reflect"
 
     const val springBootTest = "org.springframework.boot:spring-boot-starter-test"
     const val kotestJunit = "io.kotest:kotest-runner-junit5"
     const val kotestAssertions = "io.kotest:kotest-assertions-core"
+    const val kotestSpring = "io.kotest.extensions:kotest-extensions-spring"
     const val mockk = "io.mockk:mockk"
     const val springMockk = "com.ninja-squad:springmockk"
 

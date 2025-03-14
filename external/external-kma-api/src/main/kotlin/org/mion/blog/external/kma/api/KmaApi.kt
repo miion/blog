@@ -10,7 +10,7 @@ class KmaApi(
     @Value("\${kma.authkey}") private val authKey: String
 ) {
 
-    fun findWeatherForecast(): Map<String, String> {
+    fun findWeatherForecast(): Map<String, Any> {
         return kmaAdapter.getVilageFcst(
             baseDate = "20250308",
             baseTime = "2300",

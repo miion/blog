@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/app/app-notification" />
             <option value="$PROJECT_DIR$/base" />
             <option value="$PROJECT_DIR$/base/base-starter" />
+            <option value="$PROJECT_DIR$/base/base-starter-http" />
             <option value="$PROJECT_DIR$/base/base-starter-metrics" />
             <option value="$PROJECT_DIR$/base/base-starter-mongodb" />
             <option value="$PROJECT_DIR$/base/base-starter-sse" />

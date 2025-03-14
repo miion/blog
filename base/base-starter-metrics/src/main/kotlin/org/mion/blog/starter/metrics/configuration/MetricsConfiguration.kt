@@ -11,7 +11,7 @@ class MetricsConfiguration {
     @Bean
     fun prometheusRegistry(): PrometheusMeterRegistry {
         val registry = PrometheusMeterRegistry(PrometheusConfig.DEFAULT)
-        return registry;
+        return registry
     }
 
 }
